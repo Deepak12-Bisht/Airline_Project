@@ -1,15 +1,15 @@
-✈️ Airline Occupancy & Revenue Analysis
-📌 Project Overview
+## ✈️ Airline Occupancy & Revenue Analysis
+## 📌 Project Overview
 
 This project analyzes airline operational data to understand how seat occupancy and pricing affect overall revenue. Using SQL and Python, the analysis focuses on identifying under-utilized aircraft, evaluating fare structures, and estimating the revenue impact of improving occupancy rates.
 
 The goal of the project is to support data-driven decision-making that can help airlines improve aircraft utilization and increase profitability.
 
-🎯 Business Problem
+## 🎯 Business Problem
 
 Airlines face increasing operational costs due to fuel prices, labor shortages, and regulatory pressures. One of the most effective ways to improve profitability without increasing costs is by maximizing seat occupancy.
 
-This project explores:
+## This project explores:
 
 Which aircraft have low occupancy rates
 
@@ -17,7 +17,7 @@ How pricing varies across fare classes
 
 How improving occupancy can impact annual revenue
 
-🗂️ Dataset Description
+## 🗂️ Dataset Description
 
 The analysis is based on a relational airline database containing the following tables:
 
@@ -35,7 +35,7 @@ aircrafts_data and airports_data – aircraft and airport metadata
 
 The database represents real-world airline operations and enables detailed occupancy and revenue analysis.
 
-🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
 SQL – data extraction, joins, CTEs, aggregations
 
@@ -47,7 +47,7 @@ Matplotlib
 
 SQLite – local database for analysis
 
-📊 Key Analysis Performed
+## 📊 Key Analysis Performed
 1. Aircraft Capacity Analysis
 
 Identified aircraft with more than 100 seats
@@ -78,7 +78,7 @@ Estimated the potential increase in annual revenue by assuming a 10% increase in
 
 Highlighted how small improvements in seat utilization can significantly impact turnover
 
-📈 Visualizations
+## 📈 Visualizations
 
 Line charts showing booking and revenue trends over time
 
@@ -88,7 +88,7 @@ Occupancy rate comparison by aircraft
 
 All visualizations were created using Python to clearly communicate insights.
 
-🔍 Key Insights
+## 🔍 Key Insights
 
 Aircraft with lower ticket prices often achieved higher occupancy through volume.
 
@@ -96,7 +96,7 @@ Some aircraft types showed low occupancy and low revenue, indicating opportuniti
 
 A modest improvement in occupancy rate could lead to a substantial increase in annual revenue.
 
-💡 Recommendations
+## 💡 Recommendations
 
 Review pricing strategies for low-occupancy aircraft
 
@@ -104,12 +104,6 @@ Consider dynamic pricing to improve seat utilization
 
 Focus on optimizing occupancy rather than increasing capacity
 
-📁 Project Structure
-├── airline_analysis.ipynb
-├── travel.sqlite
-├── Report (Airlines).pdf
-└── README.md
-
-🚀 Conclusion
+## 🚀 Conclusion
 
 This project demonstrates how SQL and Python can be used together to analyze airline data, calculate occupancy rates, and estimate revenue improvements. The findings highlight the importance of efficient seat utilization and data-driven pricing strategies in improving airline profitability.
